@@ -1,0 +1,204 @@
+* {
+
+    /* font-family:; */
+    box-sizing:border-box;
+}
+
+body{    
+    font-family: 'Montserat' , sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #A6FF96;
+}
+
+header{
+    /* background-color: #A6FF96; */
+    /* display: flex; */
+    padding: 20px 0 0 20px;
+    
+}
+
+nav{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 10px; */
+    /* gap: 26rem; */
+}
+
+nav div {
+    display: flex;
+}
+
+nav img{
+    /* width: 100%; */
+    max-height: 59px;
+    object-fit: cover;
+    /* object-position: center; */
+}
+
+nav div h1 {
+    color: #66B539;
+}
+
+nav ul li {
+    display: inline;
+}
+
+/* ul li {
+    list-style-type: none;
+    text-align: center;
+} */
+
+.button{
+     /* padding: 16px 32px;
+     /* color: #151B1F; */
+     /* text-align: center; */
+     /* margin: 4px 2px; */
+     /* transition-duration: 0.4s;
+     cursor: pointer;
+     border: none;
+     border-radius: 20px; */
+     border: none;
+     color: white;
+     text-align: center;
+     text-decoration: none;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+}
+
+.button a {
+   color: #151B1F;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: bold;
+   padding: 10px 15px;
+   list-style: none;
+}
+
+
+.button-black a:hover{
+    color: #fff;
+    background-color: black;
+    padding: 5px 5px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    transition-duration: 0.4s;
+
+}
+
+.default{
+    color: black;
+    background-color: #fff;
+    padding: 5px 5px;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+main article{
+    background-color: #A6FF96;
+
+    display: flex;
+    /* margin-top: 5px; */
+    justify-content: center;
+    gap:15%;
+    padding: 50px;
+}
+
+main article img {
+    max-width: 492px;
+    margin-top: 20px;
+    border-radius: 9px;
+}
+
+main .judul{
+    margin-top: 110px;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 30px;
+}
+
+main .program{
+    text-align: center;
+    background-color: #E8F7DD;
+    padding: 20px;
+}
+
+main .tentangKami{
+    background-color: #A6FF96;
+    padding: 20px;
+} 
+
+main .tentangKami article {
+    background-color: #A6FF96;
+
+}
+
+.program section{
+    padding: 20px;
+}
+
+.program .card {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    padding: 20px;
+    
+  }
+main .unggulan { 
+    background-color: #A6FF96;
+}
+
+main section{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+  }
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.tentangKami h2{
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.tentangKami img{
+    max-width: 492px;
+    margin-top: 20px;
+    border-radius: 9px;
+}
+
+.tentangKami .selengkapnya{
+    margin-top: 60px;
+}
+
+.footer {
+    padding: 50px;
+    background-color: #E8F7DD;
+}
+
+.footer footer{
+    display:flex;
+    justify-content: space-around;
+}
+
+.footer .mediaSosial .icon{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .mediaSosial img{
+    max-width: 30px;
+    border-radius: 9px;
+}
